@@ -113,8 +113,8 @@ else:
 
 ## Hasil
 
-- [k-means clustering](UAS/k-means_clustering.ipynb)
-- [metadata_definer](UAS/metadata_definer.ipynb)
+- [k-means clustering](k-means_clustering.ipynb)
+- [metadata_definer](metadata_definer.ipynb)
 
 ## Kesimpulan
 
