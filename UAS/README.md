@@ -111,6 +111,11 @@ else:
 - **FNumber**: Nomor F, yang merupakan rasio panjang fokus lensa terhadap diameter pupil masuk.
 - **ISOSpeedRatings**: Menunjukkan sensitivitas sensor kamera terhadap cahaya.
 
+## Hasil
+
+- [k-means clustering](UAS/k-means_clustering.ipynb)
+- [metadata_definer](UAS/metadata_definer.ipynb)
+
 ## Kesimpulan
 
 Proyek ini menunjukkan cara melakukan segmentasi gambar menggunakan K-Means Clustering dengan jumlah cluster yang ditetapkan sebagai 3. Selain itu, dijelaskan juga cara mengekstrak dan menampilkan metadata dari gambar.
