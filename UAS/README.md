@@ -75,6 +75,29 @@ plt.imshow(segmented_image)
 
 ```
 
+5. Menampilkan Warna Kluster
+   Setelah menjalankan K-Means Clustering, kita dapat menampilkan warna-warna dari masing-masing kluster dalam bentuk bar horizontal yang rapi. Setiap warna mewakili satu kluster, dan di bawah setiap bar warna ditampilkan nilai warna (RGB) dan jumlah piksel dalam kluster tersebut.
+
+```py
+# Menghitung jumlah piksel untuk setiap warna dalam cluster
+unique, counts = np.unique(labels, return_counts=True)
+
+# Membuat dictionary untuk warna dan jumlahnya
+color_counts = dict(zip(unique, counts))
+
+# Menampilkan warna cluster sebagai gambar horizontal dengan label
+plt.figure(figsize=(15, 5))
+bar_height = 100
+color_bar = np.zeros((bar_height, k * 100, 3), dtype=np.uint8)
+
+for i, (cluster_num, count) in enumerate(color_counts.items()):
+    color_bar[:, i*100:(i+1)*100] = centers[cluster_num]
+    plt.text(i * 100 + 50, bar_height + 10, f
+
+
+
+```
+
 ## Menjelaskan Metadata Gambar
 
 Untuk menjelaskan metadata gambar, kita bisa menggunakan library Pillow untuk mengekstrak dan menampilkan metadata EXIF.
