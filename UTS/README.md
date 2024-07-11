@@ -61,4 +61,4 @@ else:
 
 ## Hasil projek
 
-<img width="956" alt="image" src="https://github.com/afrizalfajrianto/UTS_Pengolahan_Citra/assets/115614098/c55c90d4-bc88-4af3-8a1e-96015877bae5">
+<img width="956" alt="image" src="https://github/hafizalkariem/project-akhir-pengolahan-citra-digital/UTS/screenshoot/Screenshot (27).png">

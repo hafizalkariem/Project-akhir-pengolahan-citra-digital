@@ -1,4 +1,4 @@
-# K-Means Clustering dengan k=3 pada Gambar
+# K-Means Clustering
 
 Proyek ini menjelaskan cara melakukan segmentasi gambar menggunakan algoritma K-Means Clustering dengan jumlah cluster yang ditetapkan sebagai 3.
 
